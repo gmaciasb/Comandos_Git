@@ -56,3 +56,8 @@ nano post-commit
 git push origin Develop
 ssh root@domain 'bash -s' < deployment.sh
 chmod +x post-commit.
+
+git pull (descarga un repositorio)
+git pull (link repositorio)
+git pull origin main
+git pull origin desarrollo
