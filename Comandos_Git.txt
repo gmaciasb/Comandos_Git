@@ -19,8 +19,9 @@ git reset --hard "codigo del commit" (borra el código)
 git log > commits.txt
 git help "comando"
 git branch
-git branch "rama"
-git checkout "rama"
+git branch "rama"  -----------> (Nos perite crear una nueva rama).
+git branch -v  ---------------> (Nos permite ver las ramas que tenemos creadas).
+git checkout "rama" ----------> (Nos permite cambiarnos de rama).
 git merge "rama"
 git branch -D
 git checkout -b "rama" (mover y crear rama al mismo tiempo)
